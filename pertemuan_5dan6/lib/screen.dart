@@ -17,6 +17,7 @@ class HomePage extends StatelessWidget {
               },
               child: Text('Tap Untuk ke AboutPage'),
             ),
+            SizedBox(height: 10),
             RaisedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/halaman-404');
