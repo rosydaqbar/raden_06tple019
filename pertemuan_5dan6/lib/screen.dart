@@ -17,7 +17,18 @@ class HomePage extends StatelessWidget {
               },
               child: Text('Tap Untuk ke AboutPage'),
             ),
-            SizedBox(height: 10),
+            SizedBox(
+              height: 10.0,
+            ),
+            RaisedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/belajarform');
+              },
+              child: Text('Ke Belajar Form'),
+            ),
+            SizedBox(
+              height: 10.0,
+            ),
             RaisedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/halaman-404');

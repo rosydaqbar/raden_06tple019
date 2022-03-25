@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pertemuan_5dan6/screen.dart';
+import 'package:pertemuan_5dan6/form.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -10,7 +11,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => HomePage());
       case '/about':
         return MaterialPageRoute(builder: (_) => AboutPage());
-      // return MaterialPageRoute(builder: (_) => AboutPage(args));
+      case '/belajarform':
+        return MaterialPageRoute(builder: (_) => BelajarForm());
       default:
         return _errorRoute();
     }
