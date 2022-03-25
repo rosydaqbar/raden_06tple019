@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(raden_06tple019 LANGUAGES CXX)
+project(pertemuan_1sampai4 LANGUAGES CXX)
 
-set(BINARY_NAME "raden_06tple019")
+set(BINARY_NAME "pertemuan_1sampai4")
 
 cmake_policy(SET CMP0063 NEW)
 
